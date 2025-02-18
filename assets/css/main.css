@@ -26,7 +26,7 @@
 @import "nice-select.css";
 @import "odometer.css";
 :root {
-  --body: #141410;
+  --body: #193178;
   --white: #ffffff;
   --title: #181818;
   --mtitle: #000D27;
@@ -2209,8 +2209,9 @@ p {
   border-color: var(--base);
 }
 .banner__content h1 {
-  font-size: 116px;
+  font-size: 100px;
   margin-bottom: 50px;
+  color: #c9f31d;
 }
 .banner__content .video__area {
   gap: 24px;
@@ -2501,11 +2502,10 @@ p {
 .designers::before {
   content: attr(data-text);
   position: absolute;
-  color: var(--base);
+  color: var (--base);
   width: 0px;
   overflow: hidden;
-  animation: pulse-width 3s ease-in infinite;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 10px;
   -webkit-text-stroke-color: var(--base);
 }
 
