@@ -61,7 +61,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--white);
+  color: rgb(255, 174, 0);
   text-transform: capitalize;
   font-family: "Kanit", sans-serif;
 }
@@ -1119,7 +1119,7 @@ p {
 }
 
 .base {
-  color: var(--base) !important;
+  color:  rgb(0, 0, 0);
 }
 
 .base2 {
@@ -3058,7 +3058,7 @@ p {
 
 .common__icon {
   border-radius: 6px;
-  background-color: rgb(29, 29, 29);
+  background-color: rgb(255, 174, 0);
   min-width: 60px;
   height: 60px;
   display: flex;
@@ -4818,12 +4818,11 @@ p {
   display: inline-block;
   text-transform: capitalize;
   position: relative;
-  background: #1A4DBE;
   overflow: hidden;
   font-family: "Kanit", sans-serif;
   border-radius: 5px;
   transition: all 0.5s;
-  color: var(--subtitle);
+  color: var(--subtitle );
 }
 .cmn--btn span {
   position: relative;
@@ -4834,7 +4833,7 @@ p {
   position: absolute;
   content: "";
   bottom: 100%;
-  background: #aad302;
+  background: yellow;
   left: 0;
   width: 100%;
   height: 100%;
