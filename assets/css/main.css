@@ -1625,7 +1625,7 @@ p {
 }
 
 .cmn__bg {
-  background: url(../img/about/about-bg.png) no-repeat center center;
+
   background-size: cover;
 }
 
@@ -1862,10 +1862,9 @@ p {
   width: 100%;
   z-index: 99;
   transition: all 0.9s;
-  background: #000000;
+  background: rgb(255, 174, 0);
   box-shadow: 0px -31px 32px 9px #234DD4;
 }
-
 .header-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -2563,17 +2562,17 @@ p {
 }
 .about__section .singletab .tablinks li button {
   border-radius: 10px;
-  background-color: rgb(29, 29, 29);
+  background-color: rgb(255, 174, 0);
   font-size: 18px;
   text-transform: uppercase;
   font-weight: 500;
   border: unset;
   padding: 16px 30px;
-  color: var(--white);
+  color: black;
   text-align: center;
 }
 .about__section .singletab .tablinks li.active button {
-  background: var(--base);
+  background: #f3db03;
   color: var(--title);
 }
 @media (max-width: 991px) {
@@ -2642,7 +2641,7 @@ p {
 }
 
 .about__v1wrap {
-  background: url(../img/about/about-bg.png) no-repeat center center;
+
   background-size: cover;
   padding: 60px 60px;
   border-radius: 10px;
@@ -2731,7 +2730,6 @@ p {
 }
 
 .awoard__section {
-  background: url(../img/about/about-bg.png) no-repeat center center;
   background-size: cover;
   padding: 120px 0px;
   overflow: hidden;
@@ -2825,9 +2823,6 @@ p {
   gap: 24px;
 }
 
-.marquee-wrapper {
-  background: var(--base);
-}
 
 .text-slider {
   padding: 13px 0;
@@ -3443,7 +3438,6 @@ p {
 }
 
 .process__section {
-  background: url(../img/about/about-bg.png) no-repeat center center;
   background-size: cover;
   overflow: hidden;
 }
@@ -3616,8 +3610,7 @@ p {
   left: 0;
 }
 
-.testimonial__v1wrap {
-  background: url(../img/about/about-bg.png) no-repeat center center;
+.testimonial__v1wrap {    
   background-size: cover;
   padding: 130px 60px;
   border-radius: 10px;
@@ -4825,7 +4818,7 @@ p {
   display: inline-block;
   text-transform: capitalize;
   position: relative;
-  background: var(--base);
+  background: #1A4DBE;
   overflow: hidden;
   font-family: "Kanit", sans-serif;
   border-radius: 5px;
